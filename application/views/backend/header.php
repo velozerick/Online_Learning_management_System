@@ -3,7 +3,7 @@
     <div class="container-fluid">
 
   
-        <!-- LOGO 
+        <!-- LOGO sin visualizar 
         <a href="<?php echo site_url($this->session->userdata('role')); ?>" class="topnav-logo" style = "min-width: unset;">
             <span class="topnav-logo-lg">
                 <img src="<?php echo base_url('uploads/system/logo-light.png');?>" alt="" height="40">
