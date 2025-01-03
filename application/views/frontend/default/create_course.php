@@ -42,6 +42,11 @@
                                 <textarea class="form-control" name = "description" id="description" required rows="6"></textarea>
                             </div>
 
+
+
+
+
+
                             <div class="form-group">
                                 <label class="form-label"><?php echo get_phrase('category'); ?></label>
                                 <div class="controls">
@@ -64,6 +69,12 @@
                                 </select>
                             </div>
                         </div>
+
+
+
+
+
+                        
 
                         <div class="form-group">
                             <label for="description"><?php echo get_phrase('level'); ?>:</label>

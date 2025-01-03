@@ -1,3 +1,5 @@
+
+
 <div class="row ">
     <div class="col-xl-12">
         <div class="card">
@@ -89,6 +91,9 @@
                                                         <textarea name="description" id = "description" class="form-control"></textarea>
                                                     </div>
                                                 </div>
+
+
+
                                                 <div class="form-group row mb-3">
                                                     <label class="col-md-2 col-form-label" for="sub_category_id"><?php echo get_phrase('category'); ?><span class="required">*</span></label>
                                                     <div class="col-md-10">
@@ -105,6 +110,27 @@
                                                     </select>
                                                 </div>
                                             </div>
+  
+
+                                                                    <!--OPCION DIRECTA
+                                                                    <div class="form-group row mb-3">
+                                                                          <label class="col-md-2 col-form-label" for="sub_category_id"><?php echo get_phrase('category'); ?><span class="required">*</span></label>
+                                                                         <div class="col-md-10">
+                                                                          <select class="form-control" name="sub_category_id" id="sub_category_id" required>
+                                                                            <option value="">Select a category</option>
+                                                                           <optgroup label="Sistemas">
+                                                                           <option value="77e847861e">Sistemas</option>
+                                                                          </optgroup>
+                                                                         </select>
+                                                                   </div>
+                                                               </div>
+                                                                    -->
+
+
+                     
+
+
+                                            
                                             <div class="form-group row mb-3">
                                                 <label class="col-md-2 col-form-label" for="level"><?php echo get_phrase('level'); ?></label>
                                                 <div class="col-md-10">
@@ -345,6 +371,13 @@
     </div> <!-- end card-->
 </div>
 </div>
+
+
+
+
+
+
+
 
 <script type="text/javascript">
   $(document).ready(function () {
